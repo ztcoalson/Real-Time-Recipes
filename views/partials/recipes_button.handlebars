@@ -1,0 +1,47 @@
+<button type="button" id="add-recipe"></button>
+
+<div id="modal-backdrop" class="hidden"></div>
+<div id="add-recipe-modal" class="hidden">
+
+  <div class="modal-header">
+    <h3>Add a Recipe</h3>
+    <button type="button" class="modal-close-button close">&times;</button>
+  </div>
+
+  <div class="modal-body">
+
+    <div class="recipe-input-element">
+      <label for="name-input">Name</label>
+      <input type="text" id="name-input">
+    </div>
+
+    <div class="recipe-input-element">
+      <label for="servings-input">Servings</label>
+      <input type="text" id="servings-input">
+    </div>
+
+    <div class="recipe-input-element">
+      <label for="image-input">Image</label>
+      <input type="text" id="image-input">
+    </div>
+
+    <div class="recipe-input-element">
+      <label for="tags-input">Tags</label>
+      <input type="text" id="tags-input">
+    </div>
+
+    <div class="recipe-input-element extra">
+      <label for="ingredients-input">Ingredients</label>
+      <input type="text" id="ingredients-input">
+      <button type="button" id="add-button">Add</button>
+      <div class="add-ingredients-container"></div>
+    </div>
+
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="modal-cancel-button close">Cancel</button>
+    <button type="button" class="modal-accept-button">Save Recipe</button>
+  </div>
+
+</div>

@@ -1,0 +1,790 @@
+/*
+Color pallete
+
+orange: rgb(255, 106, 0)
+
+
+*/
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body, html {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+    /*#e2e1dd;  #EFE2BA;*/
+    font-family: 'Koulen', cursive;
+}
+
+/*
+basically global variables for CSS so we don't have to change every color individually.
+Use: instead of "color: #EFE2BA", use "color: var(--background);"
+*/
+:root {
+  --text: rgba(255, 106, 0);
+  /*Orange*/
+  --background: #EFE2BA;
+  /*biege*/
+  --blue: #4056A1;
+  /*dark blue*/
+}
+
+
+h1{
+  color: white;
+}
+
+
+#title {
+  margin: 0px;
+  margin-left: 40px;
+  padding: 10px;
+  width: 220px;
+  font-size: xx-large;
+}
+
+header {
+  background-color: #4056A1;
+  /* border-bottom: 1px solid #E7717D; */
+}
+
+#title a:link,
+#title a:visited {
+  color: white;
+  /*#EFE2BA;*/
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+#navbar {
+  position: absolute;
+  left: 5px;
+  top: 0px;
+  height: 60px;
+}
+
+
+.navlink {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 23px;
+  border: none;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #EFE2BAa8;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 0;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.5;
+}
+
+
+/* .navlink a:hover {
+    color: #EFE2BA;
+} */
+
+/* #active a:link {
+    color: #EFE2BA;
+    border-bottom: 1px solid #EFE2BA ;
+} */
+
+/* * * HAMBURGER CSS CODE* * */
+/* General */
+/* html {
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+} */
+
+/* body {
+  margin: 20px 0;
+  overflow: auto;
+
+  color: #fff;
+} */
+
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.p-menu1{
+   position: fixed;
+   z-index: 100;
+   left: 0px;
+   top: 10px;
+   height: 0px;
+   width: 0px;
+   cursor: pointer;
+}
+
+.material-icons{
+  position: fixed;
+  z-index: 100;
+  right: 72px;
+  top: 20px;
+  height: 0px;
+  width: 0px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+
+/* Hamburger */
+.hamburger1 {
+  height: 45px;
+  margin: 10px;
+  display: -ms-grid;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  z-index: 120;
+}
+
+.hamburger1 div {
+  background-color: white;
+  /*rgb(61, 61, 61)*/
+  position: relative;
+  width: 40px;
+  height: 5px;
+  margin-top: 7px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#toggle1 {
+  display: none;
+}
+
+#toggle1:checked+.hamburger1 .top {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin-top: 22.5px;
+}
+
+#toggle1:checked+.hamburger1 .meat {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin-top: -5px;
+}
+
+#toggle1:checked+.hamburger1 .bottom {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+#toggle1:checked~.menu1 {
+  height: 340px;
+}
+
+
+/* Menu */
+.menu1 {
+  width: 100%;
+  background-color: rgb(44,113,188);/* rgb(9, 32, 84) */
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  grid-template-rows: 1fr repeat(4, 0.5fr);
+  grid-row-gap: 35px;
+  margin-top: 35px;
+  /* positions drop down right next to end of header */
+  padding: 0;
+  list-style: none;
+  clear: both;
+  width: auto;
+  text-align: center;
+  height: 0px;
+  overflow: hidden;
+  transition: height .4s ease;
+  z-index: 120;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  /* had to add to prevent incorrect stacking*/
+}
+
+.menu1 a:first-child {
+  margin-top: 40px;
+}
+
+.menu1 a:last-child {
+  margin-bottom: 40px;
+}
+
+.link1 {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  font: 700 20px 'Oswald', sans-serif;
+}
+
+.link1:hover {
+  background-color: #fff;
+  color: rgb(61, 61, 61);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+
+/* * * Waves CSS Code * * */
+
+body {
+  margin:0;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:48px;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size:14px;
+  color: #333333;
+}
+
+.header {
+  position:relative;
+  text-align:center;
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  color:white;
+  text-decoration: none;
+}
+
+
+
+.inner-header {
+  height:65vh;
+  width:100%;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.flex { /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position:relative;
+  width: 100%;
+  height:15vh;
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:100px;
+  max-height:150px;
+}
+
+.content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: white;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% {
+    transform: translate3d(85px,0,0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
+  .content {
+    height:30vh;
+  }
+  h1 {
+    font-size:24px;
+  }
+}
+
+ /* * * Search Bar* * */
+ .search-container{
+   width: 100%;
+   padding: 5%;
+   background-image: linear linear-gradient(rgba(08,51,0.9),rgba(0,8,51,0.9));
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   align-items:center;
+   justify-content: center;
+  }
+
+  .search-bar{
+    width:100%;
+    max-width:  700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px, 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+  }
+
+  .search-bar input{
+      background: transparent;
+      flex: 1;
+      border: 0;
+      outline: none;
+      padding: 24px;
+      font-size: 20px;
+      color: #cac7ff;
+  }
+
+  ::placeholder{
+    color: #cac7ff;
+  }
+
+  .search-bar button img{
+    width: 35px;
+    height: 35px;
+  }
+
+  .search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #58629ba6;
+    cursor: pointer;
+  }
+
+  .search-wrapper{
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  #search-input{
+    flex: 1;
+    border: 0;
+    border-radius: 3px;
+    background: #cac7ff;
+    height: 20px;
+
+  }
+
+  #search-input:focus{
+    outline: none;
+  }
+
+/* * * BODY CSS CODE * * */
+
+/* #site-header {
+  background-image: url("https://w0.peakpx.com/wallpaper/837/739/HD-wallpaper-dark-blue-texture-with-circles-blue-circles-texture-retro-texture-dark-creative-background-blue-circles-background.jpg");
+  background-repeat: repeat/no-repeat;
+  background-size: contain;
+} */
+
+#all-content {
+  position: relative;
+  margin-top: 0px;
+  display: flex;
+  text-align: center;
+  /* temporary */
+  z-index: auto;
+}
+
+#recipe-container{
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255, 0.2);
+  /*#C5CBE3;*/
+  border-radius: 5px;
+  margin: 10px;
+  min-height: 820px;
+  color: #0c327a;
+}
+
+#ingredients-container {
+  flex: 1;
+  margin-right: 5px;
+  width: 36%;
+}
+
+#ingredients-container .ingredient {
+  color: #0c327a
+}
+
+#recipes-container {
+  margin-left: 5px;
+  width: 64%;
+}
+
+#results-container {
+  width: 100%;
+  text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.recipe-name,
+.recipe-servings,
+.recipe-tags {
+  margin: 0px;
+  font-size: 17px;
+}
+
+img {
+  width: 250px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+#recipes {
+  margin-left: 27px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#selected {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#selected .ingredient {
+  margin: 10px;
+  border: 2px solid #4056A1;
+  border-radius: 5px;
+  background-color: #EFE2BAa8;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#selected .ingredient p {
+  padding: 10px;
+}
+
+.recipe {
+  margin: 10px;
+  border: 2px solid #4056A1;
+  border-radius: 5px;
+  background-color: #EFE2BAa8;
+  vertical-align: bottom;
+  min-height: 287px;
+  cursor: pointer;
+}
+
+.error-container {
+  text-align: center;
+  color: white;
+  font-size: larger;
+}
+
+.list-owned-ingredients {
+  background-color: #C5CBE3;
+  border-radius: 5px;
+  margin: 0px 15px 0px 15px;
+}
+
+.ingredient {
+  display: flex;
+  margin: 0px, 10px, 10px,s10px;
+  border-bottom: 1px solid #000000;
+  color: var(--text);
+}
+
+.ingredient p {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.ingredient p:first-child>span {
+  margin-right: auto;
+}
+
+.ingredient p:last-child>span {
+  margin-left: auto;
+}
+
+.ingredient-header {
+  list-style-type: none;
+  border-radius: 5px;
+  padding: 0px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 15px 0px 15px;
+  background: linear-gradient(60deg, rgba(0,172,193,1) 0%, rgba(84,58,183,1) 100%);
+}
+
+.header-item {
+  margin: 5px 90px 5px 90px;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.top {
+  margin: 15px 15px 0px 15px;
+  color: black;
+  background-color:  #C5CBE3;
+  display: flex;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top h2 {
+  text-decoration: underline;
+  font-size: 32px;
+  margin: 5px 0px 5px 15px;
+}
+
+.top p {
+  margin-right: 15px;
+}
+
+.filter-category {
+  cursor: pointer;
+}
+
+#filter-selection {
+  z-index: 100;
+  cursor: pointer;
+}
+
+#add-ingredient,
+#add-recipe {
+  position: fixed;
+  z-index: 10000;
+  right: 30px;
+  bottom: 30px;
+  height: 55px;
+  width: 55px;
+  cursor: pointer;
+  background: url("https://cdn-icons-png.flaticon.com/512/1264/1264414.png");
+  background-size: 55px 55px;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+#add-ingredient:hover,
+#add-recipe:hover {
+  right: 27px;
+  bottom: 27px;
+  height: 65px;
+  width: 65px;
+  background-size: 65px 65px;
+}
+
+#modal-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(44,113,188, 0.8);
+}
+
+#add-ingredients-modal,
+#add-recipe-modal {
+  position: fixed;
+  border-radius: 20px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1010;
+  margin: 18vh 35vw;
+  border-radius: 20px;
+  background-color: #C5CBE3;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 20px;
+  color: #f6f6f6;
+}
+
+.modal-header button {
+  width: 25px;
+  height: 25px;
+}
+
+.modal-header h3 {
+  margin-left: 5vw;
+}
+
+.modal-body {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.modal-body {
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+#measurement-input,
+#category-input {
+  width: 15vw;
+}
+
+#amount-input,
+#name-input,
+#servings-input,
+#image-input,
+#tags-input {
+  width: 25vw;
+}
+
+.modal-footer {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .modal-footer button {} */
+
+#ingredients-input {
+  width: 22vw;
+  display: inline;
+}
+
+.extra label {
+  display: block;
+}
+
+.add-ingredients-container {
+  width: 47vh;
+  height: 0px;
+}
+
+.ingredientToAdd {
+  display: inline-block;
+  padding: 0px 10px 0px 10px;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.ingredientToAdd:hover {
+  color: red;
+}
+
+#about{
+ background-color: #4056A1;
+ color: white;
+}
+
+.about_body{
+  padding-left: 40px;
+  min-height: 300px;
+
+}
+
+.about_body p{
+
+  color: white;
+  font-size: 18px;
+}
+
+
+#about_foot{
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+#about_foot p{
+
+  color: white;
+  font-size: larger;
+}
+
+#ingredients-in-recipe h1 {
+  text-align: center;
+  background: linear-gradient(60deg, rgba(0,172,193,1) 0%, rgba(84,58,183,1) 100%);
+  margin: 0px 15px 0px 15px;
+  border-radius: 5px;
+}
+.need-container,
+.yes-container,
+.no-container,
+.owned-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0px 15px 15px 15px;
+  background-color:  #C5CBE3;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.current {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.indiv-ingredient {
+  font-size: 24px;
+  color: black;
+  margin: 15px;
+}

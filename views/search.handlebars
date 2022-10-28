@@ -1,0 +1,22 @@
+<main id="search-page">
+    <body>
+        <div class="top">
+            <h2>Recipes</h2>
+            <p>Filter by Category: {{> recipe_filters}}</p>
+        </div>
+        <div class="search-wrapper">
+            <labal for="search-input">Search Recipes</labal>
+            <input type="search" id="search-input">
+        </div>
+
+        <div id="results-container" class="container">
+            <div id="recipes">
+                {{#each recipes}}
+                    {{> recipe}}
+                {{/each}} 
+            </div>
+        </div>
+    </body>
+</main>
+
+{{> recipes_button}}

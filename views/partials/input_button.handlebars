@@ -1,0 +1,65 @@
+<button type="button" id="add-ingredient"></button>
+
+<div id="modal-backdrop" class="hidden"></div>
+<div id="add-ingredients-modal" class="hidden">
+
+
+  <div class="modal-header">
+    <h3>Add an Ingredient</h3>
+    <button type="button" id="modal-close-button">&times;</button>
+  </div>
+
+  <div class="modal-body">
+
+    <div class="ingredient-input-element">
+      <label for="name-input">Name</label>
+      <div class="input">
+        <input type="text" id="name-input">
+      </div>
+    </div>
+
+    <div class="ingredient-input-element">
+      <label for="category-input">Category</label>
+      <div class="input">
+        <select class="dropdown" id="category-input">
+          <option value="default">-- Choose Category --</option>
+          <option value="Fruit">Fruit</option>
+          <option value="Veggies">Veggies</option>
+          <option value="Grains">Grains</option>
+          <option value="Dairy">Dairy</option>
+          <option value="Meat">Meat</option>
+          <option value="Seasoning">Seasoning</option>
+          <option value="Drinks">Drinks</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="ingredient-input-element">
+      <label for="amount-input">Amount</label>
+      <div class="input">
+        <input type="number" id="amount-input">
+      </div>
+      <label for="measurement-input">Measurement</label>
+      <div class="input">
+        <select class="dropdown" id="measurement-input">
+          <option value="default"> -- Choose Measurement --</option>
+          <option value="Oz">Oz</option>
+          <option value="Lbs">Lbs</option>
+          <option value="Ml">ML</option>
+          <option value="Cups">Cups</option>
+          <option value="Gallons">Gallons</option>
+          <option value="Units">Units</option>
+        </select>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" id="modal-cancel-button">Cancel</button>
+    <button type="button" id="modal-accept-button">Save Ingredient</button>
+    <button type="button" id="modal-another-button">Add Another Ingredient</button>
+  </div>
+
+</div>

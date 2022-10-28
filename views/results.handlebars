@@ -1,0 +1,24 @@
+<main id="results-page">
+
+    <div id="all-content">
+
+        <div id="ingredients-container" class="container">
+            <h1 class="header">Selected Ingredients</h2>
+            <div id="selected">
+                {{#each ingredients}}
+                    {{> ingredient}}
+                {{/each}}
+            </div>
+        </div>
+
+        <div id="recipes-container" class="container">
+            <h1 class="header">Recipe Results</h2>
+            <div id="recipes">
+                {{#each recipes}}
+                    {{> recipe}}
+                {{/each}}
+            </div>
+        </div>
+
+    </div>
+</main>

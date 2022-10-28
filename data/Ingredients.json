@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Bananas",
+    "category": "Fruit",
+    "amount": "3",
+    "measurement": "Units"
+  },
+  {
+    "name": "Milk",
+    "category": "Dairy",
+    "amount": "1",
+    "measurement": "Gallons"
+  },
+  {
+    "name": "Sourdough Bread",
+    "category": "Grains",
+    "amount": "1",
+    "measurement": "Units"
+  },
+  {
+    "name": "Rice",
+    "category": "Grains",
+    "amount": "2",
+    "measurement": "Lbs"
+  },
+  {
+    "name": "Flour",
+    "category": "Grains",
+    "amount": "3",
+    "measurement": "Units"
+  },
+  {
+    "name": "Eggs",
+    "category": "Dairy",
+    "amount": "3",
+    "measurement": "Units"
+  },
+  {
+    "name": "Salt",
+    "category": "Seasoning",
+    "amount": "3",
+    "measurement": "Units"
+  },
+  {
+    "name": "Chicken Broth",
+    "category": "Other",
+    "amount": "4",
+    "measurement": "Cups"
+  },
+  {
+    "name": "Tomato sauce",
+    "category": "Other",
+    "amount": "1",
+    "measurement": "Oz"
+  },
+  {
+    "name": "Bread",
+    "category": "Grains",
+    "amount": "1",
+    "measurement": "Units"
+  },
+  {
+    "name": "Beans",
+    "category": "Grains",
+    "amount": "1",
+    "measurement": "Units"
+  },
+  {
+    "name": "Lettuce",
+    "category": "Veggies",
+    "amount": "1",
+    "measurement": "Units"
+  },
+  {
+    "name": "Tofu",
+    "category": "Meat",
+    "amount": "16",
+    "measurement": "Oz"
+  },
+  {
+    "name": "Coconut Milk",
+    "category": "Other",
+    "amount": "1",
+    "measurement": "Units"
+  },
+  {
+    "name": "Cheese",
+    "category": "Dairy",
+    "amount": "8",
+    "measurement": "Oz"
+  },
+  {
+    "name": "Pork",
+    "category": "Meat",
+    "amount": "2",
+    "measurement": "Lbs"
+  },
+  {
+    "name": "Tortillas",
+    "category": "Grains",
+    "amount": "16",
+    "measurement": "Oz"
+  },
+  {
+    "name": "Butter",
+    "category": "Dairy",
+    "amount": "8",
+    "measurement": "Oz"
+  },
+  {
+    "name": "lemons",
+    "category": "Fruit",
+    "amount": "1",
+    "measurement": "Units"
+  }
+]

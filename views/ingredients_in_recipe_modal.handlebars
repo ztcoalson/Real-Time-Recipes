@@ -1,0 +1,48 @@
+<div id="ingredients-in-recipe">
+
+  <h1 class="ingredients_required">Ingredients Required to Make this Recipe</h1>
+  <div class="need-container">
+    {{#each needed}}
+      {{> indiv_ingredient}}
+    {{/each}}
+  </div>
+
+  <div class="current">
+
+    <div>
+      <h1 class="ingredients-have">Ingredients Owned</h1>
+      <div class="yes-container">
+      {{#if yes}}
+        {{#each yes}}
+          {{> indiv_ingredient}}
+        {{/each}}
+      {{else}}
+        <p class="indiv-ingredient">You DO NOT own any required ingredients</p>
+      {{/if}}
+      </div>
+    </div>
+
+
+    <div>
+      <h1 class="ingredients-not">Ingredients Needed</h1>
+      <div class="no-container">
+      {{#if no}}
+        {{#each no}}
+          {{> indiv_ingredient}}
+        {{/each}}
+      {{else}}
+        <p class="indiv-ingredient">You own all the required ingredients</p>
+      {{/if}}
+      </div>
+    </div>
+  </div>
+
+  <h1 class="ingredients-have">Total owned ingredients</h1>
+  <div class="owned-container">
+    {{#each owned}}
+      {{> indiv_ingredient}}
+    {{/each}}
+  </div>
+
+
+</div>

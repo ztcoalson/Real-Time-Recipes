@@ -1,0 +1,22 @@
+<main id="input-page">
+
+  <div class="ingredients">
+    <div class="top">
+      <h2>Ingredients</h2>
+      <p>Filter by Category: {{> filters}}</p>
+    </div>
+
+    <ul class="ingredient-header">
+      <li class="header-item">name</li>
+      <li class="header-item">category</li>
+      <li class="header-item">amount</li>
+    </ul>
+    <div class="list-owned-ingredients">
+      {{#each owned}}
+        {{> ingredient}}
+      {{/each}}
+    </div>
+  </div>
+</main>
+
+{{> input_button}}

@@ -1,0 +1,389 @@
+[
+  {
+    "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3a%2f%2fimages.media-allrecipes.com%2fuserphotos%2f3946212.jpg&w=596&h=596&c=sc&poi=face&q=60",
+    "name": "blueberry smoothie bowl",
+    "servings": "feeds 1",
+    "tags": "vegetarian",
+    "ingredients": [
+      "bananas",
+      "blueberries",
+      "cashew butter",
+      "vanilla extract"
+    ]
+  },
+  {
+    "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3a%2f%2fimages.media-allrecipes.com%2fuserphotos%2f5423214.jpg",
+    "name": "pesto pizza",
+    "servings": "feeds 6",
+    "tags": "vegetarian",
+    "ingredients": [
+      "pesto",
+      "bread",
+      "tomatos",
+      "green bell peppers",
+      "black olives",
+      "red onions",
+      "artichokes",
+      "feta cheese"
+    ]
+  },
+  {
+    "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3a%2f%2fpublic-assets.meredithcorp.io%2ff01a6bf647c432ca47e3977e74d19a34%2f1645503476guacamole.jpg&w=596&h=399&c=sc&poi=face&q=60",
+    "name": "guacamole",
+    "servings": "feeds 4",
+    "tags": "vegetarian",
+    "ingredients": [
+      "avacados",
+      "limes",
+      "salt",
+      "onions",
+      "cilantro",
+      "tomatos",
+      "garlic"
+    ]
+  },
+  {
+    "url": "https://hips.hearstapps.com/hmg-prod/images/black-bean-burger-163-1550260800.jpg",
+    "name": "black bean burger",
+    "servings": "feeds 4",
+    "tags": "vegetarian",
+    "ingredients": [
+      "black beans",
+      "green bell peppers",
+      "onions",
+      "garlic",
+      "eggs",
+      "chili powder",
+      "cumin",
+      "hot sauce",
+      "bread"
+    ]
+  },
+  {
+    "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3a%2f%2fimages.media-allrecipes.com%2fuserphotos%2f418496.jpg",
+    "name": "thai tofu",
+    "servings": "feeds 4",
+    "tags": "vegetarian",
+    "ingredients": [
+      "tofu",
+      "green onions",
+      "olive oil",
+      "sesame oil",
+      "soy sauce",
+      "ginger root",
+      "peanut butter",
+      "coconut",
+      "sesame seeds"
+    ]
+  },
+  {
+    "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3a%2f%2fimages.media-allrecipes.com%2fuserphotos%2f454897.jpg",
+    "name": "spinach enchiladas",
+    "servings": "feeds 4",
+    "tags": "vegetarian",
+    "ingredients": [
+      "butter",
+      "green onions",
+      "garlic",
+      "spinach",
+      "cheese",
+      "sour cream",
+      "tortillas",
+      "sauce"
+    ]
+  },
+  {
+    "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3a%2f%2fimages.media-allrecipes.com%2fuserphotos%2f7831733.jpg",
+    "name": "baked rice and beans",
+    "servings": "feeds 8",
+    "tags": "vegetarian",
+    "ingredients": [
+      "rice",
+      "salt",
+      "cumin",
+      "chili powder",
+      "pepper",
+      "oregano",
+      "olive oil",
+      "salsa",
+      "black beans"
+    ]
+  },
+  {
+    "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3a%2f%2fimages.media-allrecipes.com%2fuserphotos%2f709130.jpg",
+    "name": "veggie stir-fry",
+    "servings": "feeds 6",
+    "tags": "vegetarian",
+    "ingredients": [
+      "vegetable oil",
+      "ginger root",
+      "garlic",
+      "cornstarch",
+      "broccoli",
+      "carrots",
+      "peas",
+      "green beans",
+      "soy sauce",
+      "onions",
+      "salt"
+    ]
+  },
+  {
+    "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3a%2f%2fimages.media-allrecipes.com%2fuserphotos%2f3441068.jpg",
+    "name": "fried rice",
+    "servings": "feeds 6",
+    "tags": "vegetarian",
+    "ingredients": [
+      "olive oil",
+      "tofu",
+      "carrots",
+      "celery",
+      "onions",
+      "garlic",
+      "black pepper",
+      "white rice",
+      "eggs",
+      "spinach",
+      "hot sauce"
+    ]
+  },
+  {
+    "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3a%2f%2fimages.media-allrecipes.com%2fuserphotos%2f4573958.jpg",
+    "name": "lentil bolognese",
+    "servings": "feeds 4",
+    "tags": "vegetarian",
+    "ingredients": [
+      "olive oil",
+      "garlic",
+      "onions",
+      "red bell peppers",
+      "carrots",
+      "mushrooms",
+      "tomatos",
+      "vegetable broth",
+      "green lentils",
+      "herbs",
+      "nutmeg"
+    ]
+  },
+  {
+    "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3a%2f%2fimages.media-allrecipes.com%2fuserphotos%2f2410943.jpg&w=596&h=596&c=sc&poi=face&q=60",
+    "name": "pecan-mapel salmon",
+    "servings": "feeds 4",
+    "tags": "pescatarian",
+    "ingredients": [
+      "salmon",
+      "salt",
+      "pepper",
+      "pecans",
+      "apple cidar vinegar",
+      "maple syrup",
+      "paprika"
+    ]
+  },
+  {
+    "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3a%2f%2fimages.media-allrecipes.com%2fuserphotos%2f4578624.jpg&w=596&h=399&c=sc&poi=face&q=60",
+    "name": "mac & cheese",
+    "servings": "feeds 8",
+    "tags": "gluten-free",
+    "ingredients": [
+      "gluten-free elbow pasta",
+      "butter",
+      "salt",
+      "milk",
+      "cheese",
+      "breadcrumbs"
+    ]
+  },
+  {
+    "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3a%2f%2fpublic-assets-ucg.meredithcorp.io%2f985912dafa2a02215d2188beefb670b2%2f4459987.jpg&w=596&h=596&c=sc&poi=face&q=60",
+    "name": "oat waffles",
+    "servings": "feeds 4",
+    "tags": "gluten-free",
+    "ingredients": [
+      "almond milk",
+      "eggs",
+      "butter",
+      "sugar",
+      "baking powder",
+      "rolled oats"
+    ]
+  },
+  {
+    "url": "https://celiac.org/eat-gluten-free/wp-content/uploads/2018/01/arugula-and-canadian-bacon-egg-white-omelet.jpg",
+    "name": "omelet",
+    "servings": "feeds 2",
+    "tags": "gluten-free",
+    "ingredients": [
+      "eggs",
+      "butter",
+      "arugula",
+      "tomatoes",
+      "onion",
+      "basil",
+      "bacon"
+    ]
+  },
+  {
+    "url": "https://celiac.org/eat-gluten-free/wp-content/uploads/2017/01/fish-and-chips-plate-photo.jpg",
+    "name": "beer battered fish n' chips",
+    "servings": "feeds 3",
+    "tags": "pescatarian",
+    "ingredients": [
+      "rice flour",
+      "cornstarch",
+      "baking powder",
+      "salt",
+      "pepper",
+      "cod",
+      "vegetable oil",
+      "beer"
+    ]
+  },
+  {
+    "url": "https://www.isabeleats.com/wp-content/uploads/2020/12/bean-cheese-burritos-small-13.jpg",
+    "name": "bean & cheese burrito",
+    "servings": "feeds 1",
+    "tags": "vegetarian",
+    "ingredients": [
+      "beans",
+      "cheese",
+      "tortillas"
+    ]
+  },
+  {
+    "url": "https://images.immediate.co.uk/production/volatile/sites/2/2015/04/5127.jpg?quality=90&webp=true&crop=13px,333px,2848px,2587px&resize=556,505",
+    "name": "pork ramen",
+    "servings": "feeds 3",
+    "tags": "none",
+    "ingredients": [
+      "garlic",
+      "ramen noodles",
+      "chicken broth",
+      "soy sauce",
+      "ginger",
+      "chili flakes",
+      "chinese greens",
+      "mushrooms",
+      "green onions",
+      "eggs",
+      "pork"
+    ]
+  },
+  {
+    "url": "https://www.isabeleats.com/wp-content/uploads/2018/02/mexican-slow-cooker-pork-carnitas-tacos-reshoot-small-5-650x973.jpg",
+    "name": "carnitas tacos",
+    "servings": "feeds 10",
+    "tags": "none",
+    "ingredients": [
+      "pork",
+      "lime",
+      "cumin",
+      "garlic",
+      "onion",
+      "tortilla",
+      "salt",
+      "pepper"
+    ]
+  },
+  {
+    "url": "https://www.cookingclassy.com/wp-content/uploads/2019/03/coconut-rice-8-768x1152.jpg",
+    "name": "coconut rice",
+    "servings": "feeds 4",
+    "tags": "gluten-free",
+    "ingredients": [
+      "rice",
+      "coconut milk",
+      "salt"
+    ]
+  },
+  {
+    "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3a%2f%2fstatic.onecms.io%2fwp-content%2fuploads%2fsites%2f9%2f2013%2f12%2f06%2fcreamy-tomato-soup-with-buttery-croutons-xl-r-200403.jpg",
+    "name": "tomato soup",
+    "servings": "feeds 6",
+    "tags": "gluten-free",
+    "ingredients": [
+      "butter",
+      "olive oil",
+      "onion",
+      "garlic",
+      "tomatoes",
+      "water",
+      "cream",
+      "sugar",
+      "salt",
+      "red pepper",
+      "oregano",
+      "pepper"
+    ]
+  },
+  {
+    "url": "https://assets.bonappetit.com/photos/57acf62a53e63daf11a4dbee/5:7/w_1244,h_1742,c_limit/best-ever-grilled-cheese.jpg",
+    "name": "grilled cheese",
+    "servings": "feeds 1",
+    "tags": "vegetarian",
+    "ingredients": [
+      "bread",
+      "cheese",
+      "butter"
+    ]
+  },
+  {
+    "url": "https://www.blossmangas.com/wp-content/uploads/2020/05/Lemonade-1-1-2560x1707.jpg",
+    "name": "lemonade",
+    "servings": "feeds 1",
+    "tags": "drinks",
+    "ingredients": [
+      "water",
+      "ice",
+      "lemons",
+      "sugar"
+    ]
+  },
+  {
+    "url": "https://imagesvc.meredithcorp.io/v3/mm/image?q=60&c=sc&poi=face&w=2000&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F03%2F09%2F26317-chicken-pot-pie-mfs-482.jpg",
+    "name": "chicken pot pie",
+    "servings": "feeds 4",
+    "tags": "dinner",
+    "ingredients": [
+      "chicken",
+      "milk",
+      "pie crust",
+      "butter",
+      "flour",
+      "vegetables",
+      "salt",
+      "pepper",
+      "broth"
+    ]
+  },
+  {
+    "url": "https://hips.hearstapps.com/delish/assets/18/09/1520032536-shot-2-134.jpg",
+    "name": "ham and cheese sliders",
+    "servings": "feeds 4",
+    "tags": "dinner",
+    "ingredients": [
+      "butter",
+      "cheese",
+      "rolls",
+      "onions",
+      "ham",
+      "mustard"
+    ]
+  },
+  {
+    "url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190411-potato-salad-horizontal-1-1555688422.png",
+    "name": "potato salad",
+    "servings": "feeds 3",
+    "tags": "side",
+    "ingredients": [
+      "mayonnaise",
+      "mustard",
+      "relish",
+      "onion",
+      "celery",
+      "eggs",
+      "potatoes"
+    ]
+  }
+]

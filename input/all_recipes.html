@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset = "utf-8">
+    <title>Recipes</title>
+
+    <link rel="stylesheet" href="/style.css" media="screen">
+    <script src="/output.js" charset="utf-8" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1 class = "header">All Recipes</h1>
+
+    <nav id = "navbar">
+     <ul>
+       <li class = "navlink"><a href = "#">Input Ingredients</a></li>
+       <li class = "navlink"><a href = "#">Get Recipes</a></li>
+       <li class = "navlink" id = "active"><a href = "#">Search Recipes</a></li>
+      <li>    
+        <input type="text" id="navbar-search-input" placeholder="Search Recipes...">
+      </li>   
+     </ul>
+    </nav>
+    </header>
+
+    <main id = "recipes-container">
+
+      <article class="recipe">
+        <div class="recipe-picture">
+            <img src="{{url}}"/>
+        </div>
+        <div class="recipe-content">
+            <p class="recipe-name">
+                {{name}}
+            </p>
+            <p class="recipe-servings">
+                {{servings}}
+            </p>
+            <p class="recipe-tags">
+                {{tags}}
+            </p>
+        </div>
+    </article>
+
+    </main>
+
+    <button type = "button" id = "add-recipe-button"><i</button>
+
+    
+</body>
+</html>
